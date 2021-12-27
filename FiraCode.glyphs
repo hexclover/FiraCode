@@ -84457,7 +84457,7 @@ width = 1200;
 },
 {
 color = 3;
-glyphname = greater_equal.liga;
+glyphname = greater_equal.ss02;
 lastChange = "2020-04-05 21:56:41 +0000";
 layers = (
 {
@@ -85415,14 +85415,14 @@ width = 1200;
 },
 {
 color = 3;
-glyphname = less_equal.liga;
+glyphname = less_equal.ss02;
 lastChange = "2020-04-05 21:56:41 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
-name = greater_equal.liga;
+name = greater_equal.ss02;
 transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
@@ -85433,7 +85433,7 @@ width = 1200;
 components = (
 {
 alignment = -1;
-name = greater_equal.liga;
+name = greater_equal.ss02;
 transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
@@ -89449,7 +89449,7 @@ width = 1200;
 },
 {
 color = 3;
-glyphname = greater_equal.ss02;
+glyphname = greater_equal.liga;
 lastChange = "2020-04-05 21:57:02 +0000";
 layers = (
 {
@@ -89524,13 +89524,13 @@ width = 1200;
 },
 {
 color = 3;
-glyphname = less_equal.ss02;
+glyphname = less_equal.liga;
 lastChange = "2020-04-05 21:57:02 +0000";
 layers = (
 {
 components = (
 {
-name = greater_equal.ss02;
+name = greater_equal.liga;
 transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
@@ -89540,7 +89540,7 @@ width = 1200;
 {
 components = (
 {
-name = greater_equal.ss02;
+name = greater_equal.liga;
 transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
