@@ -1,79 +1,76 @@
-## Fira Code: free monospaced font with programming ligatures
+## Fira Code字体是一种适用于编程的等宽字体。使用它可以减少我们在编程时处理逻辑标记的脑力消耗。
 
 ![Fira Code](./extras/logo.svg)
 
-Read in [English](./README.md) | [简体中文](./README_CN.md)
+### 问题
 
-### Problem
+开发者们使用的多标记，通常都是用几个字符编码。对于人的大脑来说，像`->`、`<=`或`:=`这样的序列是单一的逻辑标记，即使它们在屏幕上显示两到三个字符。您的眼睛并非无消耗的来扫描、解析并将多个字符连接到一个逻辑字符中。理想情况下，所有编程语言都应该为操作符设计成熟的Unicode符号，但现在还不是这样。
 
-Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `->`, `<=` or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
+### 方案
 
-### Solution
+Fira Code是一种免费的等宽字体，包含常用的编程语言中多种字符组合的连字。这只是一个字体呈现功能，底层代码仍然与ASCII兼容。这有助于更快地阅读和理解代码。对于一些常见的序列，如`..`或`//`，连字允许我们纠正间距。
 
-Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
-
-### Download & Install
+### 下载和安装
 
 <a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="./extras/download.png" width="520" height="130"></a>
 
-Then:
+下一步:
 
-- [How to Install](https://github.com/tonsky/FiraCode/wiki)
-- [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting)
-- [News & Updates](https://twitter.com/FiraCode)
+- [如何安装](https://github.com/tonsky/FiraCode/wiki)
+- [安装文档](https://github.com/tonsky/FiraCode/wiki#troubleshooting)
+- [相关新闻](https://twitter.com/FiraCode)
 
 ### Support
 
 <a href="https://github.com/sponsors/tonsky" target="_blank"><img alt="Sponsor" src="./extras/sponsor.png"></a>
 
-Fira Code is a personal, free-time project with no funding and a huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
+Fira Code 是一个个人项目,没有资金和巨大的空闲时间项目 [feature request backlog](https://github.com/tonsky/FiraCode/issues). 如果你也热爱这个项目, 考虑通过以下途径支持其发展 [GitHub Sponsors](https://github.com/sponsors/tonsky) 或 [Patreon](https://patreon.com/tonsky). 任何帮助都是有价值的!
 
-### What’s in the box?
+### 字体里都有哪些特征?
 
-Left: ligatures as rendered in Fira Code. Right: same character sequences without ligatures.
+左侧：Fira Code中呈现的连字。右侧：没有连字的相同字符序列。
 
 <img src="./extras/ligatures.png" width="754" height="1326">
 
-Fira Code comes with a huge variety of arrows. Even better: you can make them as long as you like and combine start/middle/end fragments however you want!
+Fira Code 带有种类繁多的箭头。更棒的是：您可以随心所欲地制作它们，并根据需要组合开始/中间/结束片段！
 
 <img src="./extras/arrows.png" width="754" height="799">
 
-Fira Code is not only about ligatures. Some fine-tuning is done for punctuation and frequent letter pairs.
+Fira Code 不仅与连字有关，还对标点符号和频繁的字母对进行了一些微调。
 
 <img src="./extras/typographics.png" width="754" height="649">
 
-Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+Fira Code 附带了几个不同的字符变体，以便每个人都可以选择最适合自己的. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
 <img src="./extras/character_variants.png" width="754" height="391">
 
-Some ligatures can be altered or enabled using stylistic sets/character variants:
+可以使用样式集/字符变体更改或启用某些连字：
 
 <img src="./extras/ligature_variants.png" width="754" height="561">
 
-Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs:
+作为一种编程字体，Fira Code 对 ASCII/框绘图、电力线和其他形式的控制台 UI 具有出色的支持：
 
 <img src="./extras/console.png" width="754" height="459">
 
-Fira Code is the first programming font to offer dedicated glyphs to render progress bars:
+Fira Code 是第一个提供专用字形来渲染进度条的编程字体：
 
 <img src="./extras/progress.png" width="754" height="282">
 
-In action:
+在不断更新的进度条中:
 
 <img src="./extras/progress.gif" width="560" height="181">
 
-We hope more programming fonts will adopt this convention and ship their own versions.
+我们希望更多的编程字体能够采用这个约定并发布自己的版本。
 
-Unicode coverage makes Fira Code a great choice for mathematical writing:
-
+Unicode 覆盖使 Fira Code 成为数学写作的绝佳选择：
 <img src="./extras/math.png" width="754" height="323">
 
-### How does it look?
+### 它看起来怎样?
 
 <img src="./extras/samples.png" width="754" height="1068">
 <img src="./extras/samples2.png" width="754" height="1257">
 
-### Editor compatibility list
+### 编辑器兼容性列表
 
 | Works | Doesn’t work   |
 |-------|----------------|
@@ -141,7 +138,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **Xi** |
 | Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
 
-### Terminal compatibility list
+### 终端兼容性列表
 
 | Platform       | Works | Doesn’t work |
 |----------------|-------|--------------|
@@ -150,7 +147,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | Linux          | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>Kitty<br>Konsole<br>QTerminal<br>Termux<br>st ([patch](https://st.suckless.org/patches/ligatures/)) | Alacritty<br>GNOME Terminal<br>libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)): <ul><li>gtkterm<li>guake<li>LXTerminal<li> sakura<li>Terminator<li>xfce4-terminal</ul>mate-terminal<br>rxvt<br>terminology<br>xterm
 | ChromeOS       | crosh ([instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | |
 
-### Browser support
+### 在浏览器中使用
 
 ```html
 <!-- HTML -->
@@ -178,7 +175,7 @@ code { font-family: 'Fira Code', monospace; }
 - ACE
 - CodeMirror (enable with `font-variant-ligatures: contextual;`)
 
-### Projects using Fira Code
+### 正在使用 Fira Code的项目
 
 - [CodePen](https://codepen.io/)
 - [Blink Shell](http://www.blink.sh/)
@@ -189,9 +186,9 @@ code { font-family: 'Fira Code', monospace; }
 - [FromScratch](https://fromscratch.rocks/)
 - [PEP20.org](https://pep20.org/)
 
-### Alternatives
+### 备选方案
 
-Free monospaced fonts with ligatures:
+带连字的免费等宽字体：
 
 - [Hasklig](https://github.com/i-tu/Hasklig)
 - [Monoid](http://larsenwork.com/monoid/)
@@ -202,14 +199,14 @@ Free monospaced fonts with ligatures:
 - [Cascadia Code](https://github.com/microsoft/cascadia-code)
 - [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 
-Paid monospaced fonts with ligatures:
+带连字的付费等宽字体:
 
 - [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm)
 - [Mono Lisa](https://www.monolisa.dev/)
 
-### Building Fira Code locally
+### 在本地构建 Fira Code
 
-In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, this is the setup I use on macOS:
+如果您想更改 FiraCode.glyphs 并自己构建 OTF / TTF / WOFF 文件，这是我在 macOS 上使用的设置：
 
 ```bash
 # install all required build tools
@@ -232,8 +229,9 @@ make
 make package
 ```
 
-### Credits
+### 制作人员
 
-- Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
-- Based on: [Fira Mono](https://github.com/mozilla/Fira)
-- Inspired by: [Hasklig](https://github.com/i-tu/Hasklig)
+- 作者: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
+- 基于此项目: [Fira Mono](https://github.com/mozilla/Fira)
+- 灵感来源: [Hasklig](https://github.com/i-tu/Hasklig)
+- 翻译：墨抒颖[@moshuying](https://github.com/moshuying)
